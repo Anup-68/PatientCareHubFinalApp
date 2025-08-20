@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "195972386947",
+    "project_id": "patientcarehub2325",
+    "storage_bucket": "patientcarehub2325.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195972386947:android:49c7c44dd6b72ded144bb6",
+        "android_client_info": {
+          "package_name": "com.example.patientcarehub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIDXaMzuvzEwu95p-f3eEeR-R1dPbjTOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
