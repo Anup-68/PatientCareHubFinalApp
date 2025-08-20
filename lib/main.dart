@@ -9,7 +9,16 @@ final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: const FirebaseOptions(
+      apiKey: "AIzaSyAs4CUNyDhOZC-A0CsXmskeqm6cjdZddec",
+      authDomain: "patientcarehub2325.firebaseapp.com",
+      projectId: "patientcarehub2325",
+      storageBucket: "patientcarehub2325.appspot.com",
+      messagingSenderId: "195972386947",
+      appId: "1:195972386947:web:dd41ee5045820f53144bb6",
+    ),
+  );
   await Supabase.initialize(
     url: 'https://vwluqbuocpmawrcnmlsf.supabase.co',
     anonKey:
